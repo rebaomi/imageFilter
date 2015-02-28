@@ -1,7 +1,7 @@
 /*
  * @description 处理图片滤镜
  * @return 滤镜图片
- * @author lvxd
+ * @author lvxd & AlloyTeam
  */
 var fs = require("fs")
     ,url = require('url')
