@@ -41,7 +41,7 @@ if (cluster.isMaster) {
     var server = http.createServer(function(req,res){
         var pathname = url.parse(req.url).pathname
             , params = url.parse(req.url,true).query
-            , baseUrl = config.getBaseUrl(params.ossServer)
+            , baseUrl = config.getBaseUrl(params.ossEnv)
             , imgUrl = config.getImgUrl(pathname, params,baseUrl)
 
             , effect = params.effect || 'origin'
