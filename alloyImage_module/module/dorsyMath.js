@@ -4,7 +4,7 @@
  * FFT 矩阵 复数 Langrange插值
  *
  */
-var base = require('../alloyimage.base.js'),
+var base = require('../base.js'),
     Ps = base.Ps,
     window = base.window;
 

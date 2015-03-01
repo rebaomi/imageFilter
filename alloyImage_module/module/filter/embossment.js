@@ -3,7 +3,7 @@
  * @description:  浮雕效果
  *
  */
-var base = require('../../alloyimage.base.js'),
+var base = require('../../base.js'),
     Ps = base.Ps,
     window = base.window;
 

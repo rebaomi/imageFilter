@@ -4,7 +4,7 @@
  * @参考：http://wenku.baidu.com/view/e32d41ea856a561252d36f0b.html
  *
  */
-var base = require('../../alloyimage.base.js'),
+var base = require('../../base.js'),
     Ps = base.Ps,
     window = base.window;
 

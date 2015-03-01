@@ -4,7 +4,7 @@
  * @modify: 灰度算法改成加权平均值 (0.299, 0.578, 0.114)
  *
  */
-var base = require('../../alloyimage.base.js'),
+var base = require('../../base.js'),
     Ps = base.Ps,
     window = base.window;
 

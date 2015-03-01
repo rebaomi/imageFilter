@@ -3,7 +3,7 @@
  * @description: 图像工具方法 不会返回AI本身，会得到图像的一些特征
  *
  */
-var base = require('../alloyimage.base.js'),
+var base = require('../base.js'),
     Ps = base.Ps,
     window = base.window;
 

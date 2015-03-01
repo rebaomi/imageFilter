@@ -185,6 +185,9 @@ var P = {
 
     //组合效果映射器
     reflectEasy: function(effect){
+        console.log(this);
+        console.log("---------------"+this.lib);
+        console.log("---------------"+this.lib.config);
         var fun = this.lib.config.getEasyFun(effect).actName;
         return this.definedPs[effect] || this.lib.easy.getFun(fun);
     },
@@ -1082,17 +1085,21 @@ function checkStartWorker(){
 }
 
 // exports
+//exports.P.lib = P.lib;
+//exports.psLib = exports.window[Ps]
+//              = exports.$AI
+//              = exports.AlloyImage
+//              = window[Ps];
+//
+//exports.psLib.prototype = exports.window[Ps].prototype
+//                        = exports.$AI.prototype
+//                        = exports.AlloyImage.prototype
+//                        = window[Ps].prototype;
 exports.P.lib = P.lib;
-exports.psLib = exports.window[Ps]
-              = exports.$AI
-              = exports.AlloyImage
-              = window[Ps];
-
-exports.psLib.prototype = exports.window[Ps].prototype
-                        = exports.$AI.prototype
-                        = exports.AlloyImage.prototype
-                        = window[Ps].prototype;
-
+exports.psLib = window[Ps];
+exports.window[Ps] = window[Ps];
+exports.psLib.prototype = window[Ps].prototype;
+exports.window[Ps].prototype = window[Ps].prototype;
 // sub module
 require('./module/addLayer.js');
 require('./module/applyMatrix.js');

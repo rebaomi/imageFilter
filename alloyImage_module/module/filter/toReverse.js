@@ -3,7 +3,7 @@
  * @description: 反色
  *
  */
-var base = require('../../alloyimage.base.js'),
+var base = require('../../base.js'),
     Ps = base.Ps,
     window = base.window;
 

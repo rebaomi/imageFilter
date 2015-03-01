@@ -3,7 +3,7 @@
  * @description:灰度阈值 做只有2级灰度图像处理
  *
  */
-var base = require('../../alloyimage.base.js'),
+var base = require('../../base.js'),
     Ps = base.Ps,
     window = base.window;
 

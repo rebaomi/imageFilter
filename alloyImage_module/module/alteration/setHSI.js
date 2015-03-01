@@ -6,7 +6,7 @@
  * 然后饱和度变成现在设置的饱和度，但保持明度为原来的基础上加上设置的明度
  *
  */
-var base = require('../../alloyimage.base.js'),
+var base = require('../../base.js'),
     Ps = base.Ps,
     window = base.window;
 
