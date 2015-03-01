@@ -9,8 +9,8 @@ exports.config = {
 //    prodDomain : "eyuanku",
     commonSuffix : "image.oss-cn-beijing-internal.aliyuncs.com/materials",
     defaultUrl :   "http://eyuankupub.oss-cn-beijing-internal.aliyuncs.com/sys/pic.png",
-    getBaseUrl:function(ossServer){
-        return this.protocle + ossServer + this.commonSuffix;
+    getBaseUrl:function(ossEnv){
+        return this.protocle + ossEnv + this.commonSuffix;
     },
     getImgUrl : function(pathname, params,baseUrl){
         var imgUrl = (params.Expires && params.OSSAccessKeyId && params.Signature)
