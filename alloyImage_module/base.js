@@ -185,9 +185,6 @@ var P = {
 
     //组合效果映射器
     reflectEasy: function(effect){
-        console.log(this);
-        console.log("---------------"+this.lib);
-        console.log("---------------"+this.lib.config);
         var fun = this.lib.config.getEasyFun(effect).actName;
         return this.definedPs[effect] || this.lib.easy.getFun(fun);
     },
