@@ -3,7 +3,7 @@
   
 ---
 
-# 首先感谢腾讯前端团队AlloyTeam的AlloyImage项目
+### 首先感谢腾讯前端团队AlloyTeam的AlloyImage项目
 ---
 
   使用前先安装cario，nodejs端使用的是node-canvas，依赖于cario（PS：该软件安装比较坑，谨慎谨慎）
